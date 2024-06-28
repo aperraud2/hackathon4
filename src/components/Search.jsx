@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ACCESS_KEY } from '../../keys.js'; // Correct relative path
+import { ACCESS_KEY } from '../../keys.js'; 
 
 const Search = () => {
   const [keyword, setKeyword] = useState('');

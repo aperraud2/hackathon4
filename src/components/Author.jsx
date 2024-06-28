@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { ACCESS_KEY } from '../../keys.js'; // Correct relative path
-
+import { ACCESS_KEY } from '../../keys.js'; 
 const Author = () => {
   const { username } = useParams();
   const [authorInfo, setAuthorInfo] = useState(null);
